@@ -1,6 +1,6 @@
 {
   "name": "vogels-promisified",
-  "version": "2.2.3",
+  "version": "3.0.0",
   "description": "DynamoDB library Vogels promisified",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/servel333/vogels-promisified#readme",
   "dependencies": {
-    "bluebird": "^3.5.0",
-    "vogels": "^2.2.0"
+    "bluebird": "^3.5.0"
+  },
+  "peerDependencies": {
+    "vogels": ">=2.2.0"
   }
 }
